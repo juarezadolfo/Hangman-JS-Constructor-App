@@ -1,0 +1,28 @@
+{
+  "name": "hangman-constructor-app",
+  "version": "1.0.0",
+  "description": "hangman constructor app",
+  "main": "hangman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juarezadolfo/Hangman-JS-Constructor-App.git"
+  },
+  "keywords": [
+    "hangman",
+    "constructor",
+    "app"
+  ],
+  "author": "Adolfo Juarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juarezadolfo/Hangman-JS-Constructor-App/issues"
+  },
+  "homepage": "https://github.com/juarezadolfo/Hangman-JS-Constructor-App#readme",
+  "dependencies": {
+    "inquirer": "^4.0.1",
+    "prompt": "^1.0.0"
+  }
+}
