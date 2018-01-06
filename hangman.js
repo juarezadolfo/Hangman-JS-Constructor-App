@@ -5,6 +5,8 @@ var Game = require('./game.js');
 // display challenger grill & headlights image
 var grill = require('./extra.js');
 
+
+// make the entire game an object
 var hangman = {
     wordBank: Game.wordsList,
     guessesRemaining: 10,
@@ -20,7 +22,7 @@ var hangman = {
         console.log('Welcome to MOPAR or No Car Hangman!');
         console.log('');
         console.log('---------------------------------------------------------');
-
+// inquirer prompt
         inquirer.prompt([
             {
                 name: 'play',
@@ -47,8 +49,4 @@ var hangman = {
 
 // start the game inquirer prompt
 hangman.startGame();
-
-
-
-
 
